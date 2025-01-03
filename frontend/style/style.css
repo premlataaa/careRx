@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-   
+    scroll-behavior: smooth;
+
+    scroll-behavior: smooth;
+
 }
 
 :root {
@@ -14,10 +17,11 @@
 }
 
 #nav {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 13vh;
+    /* height: 13vh; */
     background-image: linear-gradient(180deg, rgba(52, 161, 250, 0.784), rgba(9, 47, 67, 0.775));
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -57,24 +61,26 @@ html {
     font-size: large;
     margin-left: 20px;
 }
+
 #nav-pages {
     transition: all 0.3s ease-in-out;
 }
-  
+
 
 a {
     text-decoration: none;
     gap: 20px;
     color: white;
-
-
 }
 
 a:hover {
     color: var(--second-bg-color);
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
-    
+    transition: 0.3s ease-in-out;
+
+    transition: 0.3s ease-in-out;
+
 }
 
 #logo {
@@ -88,58 +94,114 @@ a:hover {
     transform: scale(1.1);
     cursor: pointer;
     box-shadow: 0 0 25px var(--main-color),
-            0 0 25px var(--text-color);
+        0 0 25px var(--text-color);
 }
 
 /* footer section */
 
-#footer>h1{
+#footer>h1 {
     padding: 20px;
     font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
-    color:black;
-    filter: drop-shadow(0 0 0.25rem var(--main-color));;
-}
-#whyCareRx{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin: auto;
-    padding: auto;
-    width: 90%;
-    gap: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
-    
-    
-}
-#footer-section{
-    background-image: url("../assets/img8.jpg");
-    background-size:100%;
-   
+    color: black;
+    filter: drop-shadow(0 0 0.25rem var(--main-color));
+    ;
 }
 
-#footer-section>h2{
+#whyCareRx {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    padding: 40px;
+    width: 90%;
+    gap: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+#footer-section {
+    background-image: url("../assets/img8.jpg");
+    background-size: 100%;
+
+}
+
+#footer-section>h2 {
     margin-left: 40px;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.whyCard>p,h4{
+
+.whyCard>p,
+h4 {
     margin: 10px;
     padding: 10px;
 }
-.whyCard>img{
+
+.whyCard>img {
     margin-left: 25px;
 }
-.whyCard>p{
+
+.whyCard>p {
     font-weight: bolder;
 }
-.whyCard>h4{
+
+.whyCard>h4 {
     font-weight: lighter;
 }
 
-@media(max-width: 768px) {
-    
-    
+#categories {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+#categories>div>p {
+    padding: 15px;
+}
+
+#footer-links {
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#footer-links>div>p {
+    padding: 5px;
+}
+
+.social-links>img {
+    margin: 10px;
+}
+
+.downloadbtn>p {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+    #nav {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        width: 320vw;
+        font-size: 50px;
+        padding: auto;
+    }
+
     #nav-pages {
         display: none;
         flex-direction: column;
@@ -153,28 +215,72 @@ a:hover {
     }
 
     #nav-pages.show {
-         display: flex;
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 60px;
+    }
+
+    #logo {
+        width:200px;
+        border-radius: 50%;
+    }
+    #footer>h1{
+        font-size: 130px;
+        width: 300vw;
+    }
+
+    #whyCareRx {
+        width: 100%;
+        gap: 50px;
+        padding: 50px;
+        margin: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 40px;
+
+    }
+
+    .whyCard {
+        width: 150vw;
+        margin: auto;
+    }
+
+    #footer-section2 {
+        width: 310%;
+        margin: 30px;
+        padding: 30px;
+        font-size: 50px;
+    }
+    #footer-section3{
+        width: 300vw;
+        font-size: 40px;
+        padding:20px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 280px) {
+    #nav {
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        margin: auto;
+        padding: 10px;
+        align-items: center;
+        width: 220vw;
+    }
+
+    #nav-pages.show {
+        display: flex;
     }
 
     .hamburger {
         display: block;
     }
 
-    #logo{
-        width: 50px;
-    }
-    
-    #whyCareRx{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media(max-width: 320px) {
-    body {
-        font-size: 6px;
-        background-color: rgb(205, 38, 135);
-    }
     #nav-pages {
         display: none;
         flex-direction: column;
@@ -186,33 +292,53 @@ a:hover {
         border-radius: 5px;
         font-size: 8px;
     }
-    #logo{
-        width: 40px;
+
+    #logo {
+        width: 80px;
     }
 
-    #whyCareRx{
+    #whyCareRx {
+        width: 90%;
+        gap: 40px;
+        padding: auto;
+        margin: auto;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
+
+    .whyCard {
+        width: 90vw;
+        margin: auto;
+    }
+
+    #footer-section2 {
+        width: 220%;
+    }
+    #footer-section3{
+        width: 220%;
+    }
+
 }
 
-@media (max-width: 1024px){
-    #nav{
-        display:flex;
+@media (max-width: 1024px) {
+    #nav {
+        display: flex;
         justify-content: center;
         height: fit-content;
         margin: auto;
         align-items: center;
 
     }
-    #nav-links, #nav-pages,#cart{
+
+    #nav-links,
+    #nav-pages,
+    #cart {
         margin: auto;
     }
 
-    #logo{
-        width: 55px;
+    #logo {
+        /* width: 55px; */
         padding: 2px;
         margin-left: 12px;
     }
-
-}    
+}
