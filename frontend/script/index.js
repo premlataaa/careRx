@@ -32,21 +32,3 @@ const slideImage = () => {
         slide.style.transform = `translateX(-${counter * 100}%)`;
     });
 };
-
-// const container = document.querySelector(".wrapper");
-// const items = Array.from(container.children);
-// const itemWidth = items[0].offsetWidth;
-// const totalItems = items.length;
-
-// //duplicate image to create an infinite loop
-// items.forEach((item)=>{
-//     const clone = Image.cloneNode(true);
-//     container.appendChild(clone);
-// });
-
-// const totatWidth = itemWidth * totalItems *2;
-// container.style.width= `${totatWidth}px`;
-
-// const animationDuration = (totalItems/itemWidth) *5;// Adjust speed (5s per image)
-
-// container.style.animationDuration = `${animationDuration}s`;
