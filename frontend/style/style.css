@@ -12,7 +12,7 @@
 :root {
     background-color: #ffffff;
     --second-bg-color: #1F546EC6;
-    --text-color: white;
+    --text-color: rgb(162, 155, 155);
     --main-color: #218DE6C8;
     --duration: 30s;
     --quantity: 10;

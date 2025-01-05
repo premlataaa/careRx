@@ -1,13 +1,25 @@
 {
   "users": [
-
+    {
+      "id": "1",
+      "name": "premlata",
+      "email": "premat5567@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "7cbb",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin12",
+      "role": "user"
+    }
   ],
-
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "PAMPER PANTS 86s",
-      "price": 1039.00,
+      "price": 1039,
       "discount": 260,
       "stock": 50,
       "category": "Personal Care",
@@ -18,9 +30,9 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "BOOST 1KG CONTAINER (500GM)",
-      "price": 525.00,
+      "price": 525,
       "discount": 100,
       "stock": 80,
       "category": "Food & Beverages",
@@ -31,9 +43,9 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "ZANDU CHYAVANPRASH AVALEHA",
-      "price": 230.00,
+      "price": 230,
       "discount": 20,
       "stock": 40,
       "category": "Health & Wellness",
@@ -44,9 +56,9 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "NIVEA MULTI-PURPOSE CREAM",
-      "price": 133.00,
+      "price": 133,
       "discount": 15,
       "stock": 100,
       "category": "Personal Care",
@@ -57,9 +69,9 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "ORGANIC GREEN TEA",
-      "price": 462.00,
+      "price": 462,
       "discount": 60,
       "stock": 30,
       "category": "Food & Beverages",
@@ -70,9 +82,9 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "SRI SRI NATURAL HONEY",
-      "price": 229.00,
+      "price": 229,
       "discount": 25,
       "stock": 20,
       "category": "Health & Wellness",
@@ -83,9 +95,9 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "ZANDU PURE HONEY",
-      "price": 1039.00,
+      "price": 1039,
       "discount": 260,
       "stock": 15,
       "category": "Health & Wellness",
@@ -96,9 +108,9 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "KAPIVA WEIGHT WISE FOODS",
-      "price": 379.00,
+      "price": 379,
       "discount": 31,
       "stock": 25,
       "category": "Health & Wellness",
@@ -109,9 +121,9 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "ELOWAY ALOE VERA GEL",
-      "price": 113.00,
+      "price": 113,
       "discount": 26,
       "stock": 90,
       "category": "Personal Care",
@@ -122,9 +134,9 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "BARE ANATOMY HAIR MASK",
-      "price": 599.00,
+      "price": 599,
       "discount": 110,
       "stock": 70,
       "category": "Personal Care",
@@ -135,9 +147,9 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "LACTO CALAMINE CLEANING WIPES",
-      "price": 69.00,
+      "price": 69,
       "discount": 2,
       "stock": 200,
       "category": "Personal Care",
@@ -148,9 +160,9 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "CAFFEINE MILKY BREW SCRUB",
-      "price": 160.00,
+      "price": 160,
       "discount": 29,
       "stock": 35,
       "category": "Personal Care",
@@ -161,9 +173,9 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "COMBO PACK OF SERIDON",
-      "price": 48.00,
+      "price": 48,
       "discount": 14,
       "stock": 300,
       "category": "Health & Wellness",
@@ -174,9 +186,9 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "COMBO PACK OF KNEE SUPPORTER",
-      "price": 470.00,
+      "price": 470,
       "discount": 60,
       "stock": 50,
       "category": "Health & Wellness",
@@ -187,9 +199,9 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "DELIGHT NUTS DRY FRUITS",
-      "price": 648.00,
+      "price": 648,
       "discount": 60,
       "stock": 10,
       "category": "Food & Beverages",
@@ -200,9 +212,9 @@
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "COLGATE MAXFRESH TOOTHPASTE",
-      "price": 212.00,
+      "price": 212,
       "discount": 31,
       "stock": 80,
       "category": "Personal Care",
@@ -213,9 +225,9 @@
       ]
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "PROTINEX HIGH QUALITY PROTEIN",
-      "price": 570.00,
+      "price": 570,
       "discount": 60,
       "stock": 12,
       "category": "Health & Wellness",
@@ -226,9 +238,9 @@
       ]
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "BIOTIN TABLET WITH ZINC",
-      "price": 279.00,
+      "price": 279,
       "discount": 65,
       "stock": 35,
       "category": "Health & Wellness",
@@ -239,9 +251,9 @@
       ]
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "SEREKO CLARIFYING BODY SCRUB",
-      "price": 471.00,
+      "price": 471,
       "discount": 110,
       "stock": 25,
       "category": "Personal Care",
@@ -252,9 +264,9 @@
       ]
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "NAMYAA INTIMATE HYGIENE WASH",
-      "price": 199.00,
+      "price": 199,
       "discount": 37,
       "stock": 50,
       "category": "Personal Care",
@@ -265,9 +277,9 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "DETTOL BODYWASH & SHOWER GEL",
-      "price": 217.00,
+      "price": 217,
       "discount": 17,
       "stock": 120,
       "category": "Personal Care",
@@ -278,9 +290,9 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "TATA SAMPANN PURE CHIA SEEDS",
-      "price": 157.00,
+      "price": 157,
       "discount": 47,
       "stock": 70,
       "category": "Food & Beverages",
@@ -291,9 +303,9 @@
       ]
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "LACTO CALAMINE SUNSCREEN",
-      "price": 307.00,
+      "price": 307,
       "discount": 41,
       "stock": 40,
       "category": "Personal Care",
