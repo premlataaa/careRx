@@ -11,7 +11,7 @@ const navbar =`
         <div id="nav-links">
             <a href="login.html">Login</a>
             <a href="signup.html">SignUp</a>
-            <a href="offers.html">Offers</a>
+            <a href="product.html">Products</a>
         </div>
         <div id="cart">
             <a href="cart.html">Cart</a>
